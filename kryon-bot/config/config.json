@@ -1,0 +1,86 @@
+{
+  "botName": "KrYon",
+  "embedColor": "#5865F2",
+  "successColor": "#57F287",
+  "errorColor": "#ED4245",
+  "warnColor": "#FEE75C",
+
+  "prefix": "!",
+
+  "welcome": {
+    "enabled": true,
+    "channelId": "WSG MA BOI [@user] YUH READY TO CONQUER THIS SERVER? WE CHANGE PLUGINS BETWEEN Infuse, Lifesteal,Strength,Blizz,Survival. SO HOP ON WITH /serverip",
+    "goodbyeChannelId": "we still miss you [@user]. when are u coming back..",
+    "autoRoleId": "",
+    "welcomeBackEnabled": true
+  },
+
+  "tickets": {
+    "categoryId": "PUT_TICKET_CATEGORY_ID_HERE",
+    "logChannelId": "PUT_TICKET_LOG_CHANNEL_ID_HERE",
+    "staffRoleId": "1528312915218792458",
+    "transcriptChannelId": "PUT_TRANSCRIPT_CHANNEL_ID_HERE",
+    "ticketNamePrefix": "ticket"
+  },
+
+  "moderation": {
+    "logChannelId": "PUT_MOD_LOG_CHANNEL_ID_HERE",
+    "muteRoleId": ""
+  },
+
+  "logging": {
+    "messageLogChannelId": "PUT_MESSAGE_LOG_CHANNEL_ID_HERE",
+    "memberLogChannelId": "PUT_MEMBER_LOG_CHANNEL_ID_HERE",
+    "serverLogChannelId": "PUT_SERVER_LOG_CHANNEL_ID_HERE"
+  },
+
+  "minecraft": {
+    "ip": "TaxoSMPGu.aternos.me",
+    "version": "1.21.11",
+    "java": true,
+    "bedrock": false,
+    "discordInvite": "https://discord.gg/uwR6PffS3"
+  },
+
+  "links": {
+    "inviteUrl": "https://discord.gg/your-invite",
+    "rules": [
+      "Be respectful to everyone.",
+      "No spamming or self-advertising.",
+      "No NSFW or illegal content.",
+      "Follow Discord's Terms of Service.",
+      "Listen to staff at all times."
+    ]
+  },
+
+  "verification": {
+    "roleId": "PUT_VERIFIED_ROLE_ID_HERE"
+  },
+
+  "automod": {
+    "enabled": true,
+    "blockInviteLinks": true,
+    "maxMentions": 5,
+    "maxCapsPercent": 70,
+    "bannedWords": [],
+    "ignoredChannelIds": [],
+    "ignoredRoleIds": []
+  },
+
+  "leveling": {
+    "enabled": true,
+    "xpPerMessage": [15, 25],
+    "xpCooldownSeconds": 60,
+    "levelUpChannelId": ""
+  },
+
+  "suggestions": {
+    "channelId": "PUT_SUGGESTIONS_CHANNEL_ID_HERE"
+  },
+
+  "reports": {
+    "channelId": "PUT_REPORTS_CHANNEL_ID_HERE"
+  },
+
+  "cooldownSeconds": 3
+}

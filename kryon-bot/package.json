@@ -1,0 +1,24 @@
+{
+  "name": "kryon-bot",
+  "version": "1.0.0",
+  "description": "KrYon - A production-ready, modular Discord.js v14 bot with welcome system, tickets, moderation, logging and utility commands.",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/index.js",
+    "deploy": "node src/deploy-commands.js",
+    "dev": "nodemon src/index.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "author": "KrYon",
+  "license": "MIT"
+}
